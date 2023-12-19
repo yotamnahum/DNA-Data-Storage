@@ -4,6 +4,7 @@
 This repository is the official implementation of [**"Single Read Reconstruction for DNA Data Storage Using Transformers"**](https://arxiv.org/abs/2109.05478v2), a novel approach leveraging an encoder-decoder Transformer architecture for DNA-based data storage. In the face of increasing global data storage demands, DNA storage emerges as a promising solution with high information density. However, DNA synthesis and sequencing are prone to errors. Our model uniquely addresses this by facilitating single-read reconstruction, significantly reducing reading costs and achieving lower error rates compared to traditional multi-read methods.
 
 ![Process Overview](images/pipeline.png)
+![Example of Reconstruction](images/eval.png)
 
 ## Key Features
 - **Transformer Architecture**: A groundbreaking deep learning model specifically designed for error correction in DNA sequences.
@@ -18,14 +19,10 @@ Run `pip install -r requirements.txt` to install required packages.
 - **Configuration**: Customize model configurations in `configuration.py`.
 - **Data Processing**: Employ `data_utils` for efficient data loading and preparation.
 - **Model Training**: Initiate model training through `DNAmodel.py`.
+- **Diverse Data Handling**: Utilize `image_utils.py` and `text_utils.py` for conversion and reconstruction of images and text data.
+- **Prediction and Evaluation**: Execute predictions and evaluate performance using `Predict.py`.
 
 ![Model Training and Prediction Flowchart](images/main.png)
-
-- **Diverse Data Handling**: Utilize `image_utils.py` and `text_utils.py` for conversion and reconstruction of images and text data.
-
-![Example of Reconstruction](images/eval.png)
-
-- **Prediction and Evaluation**: Execute predictions and evaluate performance using `Predict.py`.
 
 ## Components
 - `configuration.py`: Settings and parameters for the model.
