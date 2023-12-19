@@ -1,0 +1,1 @@
+{"PROJECT_FOLDER": ".", "data_type": "text", "k_mer_size": 4, "seq_length": 100, "strat_from_pretrained": true, "save_loacally": true, "random_state": 42, "extrnal_model": null, "unique_experiment_path": "apollo", "pretrained_model_path": null, "patch_size": [5, 5], "experiment_path": "apollo", "output_loc": "./models/experiments/apollo"}
